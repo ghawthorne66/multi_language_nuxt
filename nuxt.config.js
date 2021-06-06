@@ -22,8 +22,8 @@ export default {
   css: [
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    '~/plugins/components'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -37,9 +37,17 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      'storyblok-nuxt',
+      {
+        accessToken: '9do9nd5whETQlg7pgJFowAtt',
+        cacheProvider: 'memory'
+      }
+    ],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+
   }
 }
