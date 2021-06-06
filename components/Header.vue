@@ -4,15 +4,15 @@
       <ul>
         <li>
           <nuxt-link
-            class="text-green-600 hover:underline"
+            class="text-blue-600 hover:underline"
             to="/">
             Home
           </nuxt-link>
         </li>
         <li>
           <nuxt-link
-            class="text-green-600 hover:underline"
-            to="/en/blog">
+            class="text-blue-600 hover:underline"
+            to="/articles">
             Blog
           </nuxt-link>
         </li>
@@ -20,22 +20,22 @@
     </nav>
     <div class="flex-1">
       <a href="/" class="block w-56 mx-auto">
-        <img src="https://a.storyblok.com/f/42016/1096x313/0353bf6654/logo2.png" alt="storyblok logo">
+        <img src="http://a.storyblok.com/f/42016/1096x313/0353bf6654/logo2.png">
       </a>
     </div>
     <nav>
       <ul>
         <li>
           <nuxt-link
-            class="text-green-600 hover:underline"
-            to="/en/blog">
+            class="text-blue-600 hover:underline"
+            to="/">
             English
           </nuxt-link>
         </li>
         <li>
           <nuxt-link
-            class="text-green-600 hover:underline"
-            to="/de/blog">
+            class="text-blue-600 hover:underline"
+            to="/de">
             German
           </nuxt-link>
         </li>
